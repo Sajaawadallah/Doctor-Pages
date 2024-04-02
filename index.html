@@ -33,7 +33,7 @@
     <!-- add  main style sheet  -->
     <link rel="stylesheet" href="css/main-style.css">
     <!-- link index style file  -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-style.css">
 
 </head>
 
@@ -41,7 +41,132 @@
 <body>
 
     <!-- start header and land section -->
-    <header>
+    <header class="wow fadeInUp " data-wow-duration="2s" data-wow-delay="0.3s">
+
+        <nav class="navbar navbar-expand-lg position-relative   mb-3 " id="myheader">
+            <div class=" container-fluid " style="padding-right: 2px;">
+                <a class=" navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" width="180" alt=""></a>
+                <div class="nav-toggle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight5"
+                    aria-controls="offcanvasRight">
+                    <i class=" bi bi-list "></i>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">المميزات والحلول</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> الباقات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> المدونة </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> اتصل بنا</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- side bar  in mobile mode   -->
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight5"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header py-4 mb-3">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <h5 id="offcanvasRightLabel" class="d-flex justify-content-center text-center align-items-center">
+                        <a class="navbar-brand " href="#">
+                            <img src="images/logo.png" class="img-fluid" width="180" alt="">
+                        </a>
+                    </h5>
+                    <div class="offcanvas-body sidebar">
+                        <ul class="navbar-nav align-items-center  flex-column justify-content-center gap-4">
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page" href="index.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> من نحن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#"> المميزات والحلول </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " href="#"> الباقات </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> المدونة </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> اتصل بنا </a>
+                            </li>
+
+                            <li class="mt-4   ">
+                                <div class=" d-none flex-column btns-group  h-100">
+                                    <div class="d-flex justify-content-center align-items-center gap-3 ">
+                                        <a href="#" class="btn btn-login">تسجيل الدخول</a>
+                                        <a href="#" class="btn btn-mainsite"> الموقع العام</a>
+                                    </div>
+                                    <a href="#" class="btn-lang mt-4">ENGLISH</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="nav-left  h-100">
+                    <a href="#" class="btn btn-login">تسجيل الدخول</a>
+                    <a href="#" class="btn btn-mainsite"> الموقع العام</a>
+                    <a href="#" class="btn-lang">ENGLISH</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- start land section -->
+
+        <div class="container land-section pb-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-7">
+                    <h1>منصة مُيسِّر للخدمات الطبية</h1>
+                    <p>أول منصة متكاملة لإدارة عيادتك والترويج لها في الأردن
+                        تكنولوجية أمريكية موائمة لمتطلبات السوق الأردني</p>
+                    <div class="notes">
+                        <div class="d-flex align-items-center gap-3"><img src="images/check.png" width="25" alt="">
+                            <span>سهل الاستخدام</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3"><img src="images/check.png" width="25" alt="">
+                            <span>فترة تجريبية مجانيّة</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3"><img src="images/check.png" width="25" alt="">
+                            <span>أسعار تنافسية </span>
+                        </div>
+                    </div>
+                    <a href="#" class="join-us-btn btn mt-4">انضم إلينا</a>
+                </div>
+                <div class="col-lg-5   d-flex  justify-content-end wow fadeInLeftBig" data-wow-duration="2s"
+                    data-wow-delay="0.4s">
+                    <img src="images/img1.png" class="img-fluid" alt="">
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- end land section -->
 
     </header>
 
@@ -62,7 +187,6 @@
     <script script src="js/wow.min.js"></script>
     <!-- link main js file -->
     <script src="js/main.js"></script>
-
 
 </body>
 
