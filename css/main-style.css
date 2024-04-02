@@ -143,7 +143,9 @@ header .sticky .nav-left {
    margin-right: -30px;
  }
 }
-header .nav-left .btn-login {
+header .nav-left .btn-login ,
+.with-muser .btn-trynow
+ {
   background-color: var(--white);
   border: 1px solid var(--white);
   color: var(--mainColor2);
@@ -152,7 +154,7 @@ header .nav-left .btn-login {
   line-height: 22.32px;
   text-align: center;
   box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.16);
-  width: 122px;
+  min-width: 122px;
   height: 46px;
   display: flex;
   justify-content: center;
@@ -171,11 +173,15 @@ header .nav-left .btn-login {
   z-index: 0;
   overflow-y: hidden;
 }
-header .nav-left .btn-login:hover {
+header .nav-left .btn-login:hover , 
+.with-muser .btn-trynow:hover {
   border-color: var(--mainColor3) ;
 }
 
-header .nav-left .btn-login::before, header .nav-left .btn-login::after {
+header .nav-left .btn-login::before,
+ header .nav-left .btn-login::after ,
+ .with-muser .btn-trynow::before ,
+ .with-muser .btn-trynow::after {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -185,7 +191,8 @@ header .nav-left .btn-login::before, header .nav-left .btn-login::after {
   background-color:var(--mainColor3);
   content: "";
 }
-header .nav-left .btn-login::before {
+header .nav-left .btn-login::before  ,
+.with-muser .btn-trynow::before{
   left: 0;
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
@@ -193,7 +200,8 @@ header .nav-left .btn-login::before {
   -ms-transition: width 0.5s;
   -o-transition: width 0.5s;
 }
-header .nav-left .btn-login::after {
+header .nav-left .btn-login::after ,
+.with-muser .btn-trynow::after {
   right: 0;
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
@@ -201,11 +209,13 @@ header .nav-left .btn-login::after {
   -ms-transition: width 0.5s;
   -o-transition: width 0.5s;
 }
-header .nav-left .btn-login:hover::before {
+header .nav-left .btn-login:hover::before ,
+.with-muser .btn-trynow:hover::before {
   width: 100%;
  
 }
-header .nav-left .btn-login:hover:after {
+header .nav-left .btn-login:hover:after ,
+.with-muser .btn-trynow:hover::after {
  
   width: 100%;
 }
