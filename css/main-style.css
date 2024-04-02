@@ -28,7 +28,9 @@ a {
   --blue :rgba(5, 81, 145, 1) ;
   --lightblue : #D9E1ED;
   --black : #000;
+  --subheadingblack : #031432;
   --highlightblue : #C4E4FF; 
+  --prgcolor : rgba(108, 135, 174, 1);
 
 
 }
@@ -310,10 +312,6 @@ header .sticky {
 
 header .sticky > .nav {
   padding-top: 0px !important;
-}
-
-body {
-  height: 1000px;
 }
 
  header nav .nav-toggle {
