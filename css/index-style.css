@@ -57,7 +57,8 @@ color: var(--black);
 }
 
 .land-section .join-us-btn  ,
-.about-us .join-us-btn {
+.about-us .join-us-btn ,
+.packages .join-us-btn {
   background-color: var(--mainColor2);
   border: 1px solid var(-mainColor2);
   color: var(--white);
@@ -83,7 +84,8 @@ color: var(--black);
   -o-transition: all 0.5s;
 }
 .land-section .join-us-btn:hover , 
-.about-us .join-us-btn:hover{
+.about-us .join-us-btn:hover,
+.packages .join-us-btn:hover{
   background-color: var(--mainColor3);
   border-color: var(--mainColor3);
   color: var(--mainColor2);
@@ -408,6 +410,126 @@ fill: var(--mainColor1);
     -o-transition: all 0.5s ;
 }
 /* end services */
+
+/* start packages */
+.packages {
+    overflow: hidden;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+} 
+.packages h2 {
+font-size: 32px;
+font-weight: 700;
+line-height: 59.97px;
+text-align: center;
+color: var(--mainColor2);
+
+} 
+
+.packages h2 span {
+    color: var(--subheadingblack);
+}
+
+.packages .step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, #FBFBFB 0%, #EFEFEF 100%);
+    border: 1px solid #E9E9E9;
+    width: 273.11px;
+    height: 309.57px;
+    border: 1px 0px 0px 0px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    position: relative;
+
+}
+
+.packages .step h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 44.98px;
+    text-align: center;
+    color: var(--subheadingblack);
+    
+    }
+.packages .step1 .number ,
+.packages .step2 .number ,
+.packages .step3 .number {
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+    right: -20px;
+}
+.packages .step1 .arrow ,
+.packages .step2 .arrow ,
+.packages .step3 .arrow  {
+    position: absolute;
+    bottom: 2px;
+    z-index: 1;
+    left: -95px;
+}
+
+.packages .step1 .difarrow ,
+.packages .step2 .difarrow ,
+.packages .step3 .difarrow  {
+    position: absolute;
+    bottom: 2px;
+    z-index: 1;
+    left: 0px;
+}
+.packages .step1 .difarrow ,
+.packages .step2 .difarrow  {
+    display: none;
+}
+.packages .step1 .arrowhead , 
+.packages .step2 .arrowhead 
+
+ {
+    position: absolute;
+    bottom: 140px;
+    z-index: 1;
+    left: -100px;
+}
+
+@media (max-width : 992px) {
+    .packages .step2 .arrow {
+        display: none;
+    }
+    .packages .step2 .arrowhead {
+        display: none;
+    }
+ 
+.packages .step2 .difarrow {
+    display: block;
+}
+}
+
+@media (max-width : 768px ) {
+    .packages .step .arrow {
+        display: none;
+    }
+    .packages .step .arrowhead {
+        display: none;
+    }
+.packages .step1 .difarrow ,
+.packages .step2 .difarrow {
+    display: block;
+}
+
+}
+
+.packages .join-us-btn {
+    width: 320px;
+    margin-top: 4rem;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+/* end packages */
 
 /* start blogs */
 
