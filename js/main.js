@@ -27,3 +27,26 @@ function yFunction() {
         header.classList.remove("sticky")
     }
 }
+
+
+// the country dropdown
+
+const main_country = document.getElementsByClassName("country");
+const all_countres = document.getElementsByClassName("all-countres");
+let arr = [];
+const arr1 = [];
+
+arr = [...all_countres].map(i => i.getElementsByTagName('a'))
+for (let index = 0; index < arr.length; index++) {
+    [...arr[index]].map(l => arr1.push(l))
+
+}
+
+arr1.map(m => m.onclick = function () {
+
+    [...main_country].map(elem => elem.innerHTML = m.innerHTML)
+
+})
+console.log(arr1)
+
+

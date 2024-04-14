@@ -153,6 +153,7 @@ color: var(--prgcolor);
 
 }
 
+
 /* end benfits */
 
 /* start with-muser */
@@ -290,7 +291,7 @@ color: var(--prgcolor);
 }
 
 .services .about-services {
-    background-color: var(--mainColor2);
+    background: linear-gradient(145.08deg, #B8860B 3.73%, #EEB830 132.69%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -348,10 +349,13 @@ color: var(--prgcolor);
 .services .some-services .services-cards  {
     display:  flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center ;
     gap: 4rem;
+    
 }
+
+
 .services .some-services .services-cards .services-card  {
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -389,7 +393,8 @@ color: var(--prgcolor);
     background-color: var(--mainColor2);
 }
 
-.services .some-services .services-cards .services-card:hover .serv-icon svg path  {
+.services .some-services .services-cards .services-card:hover .serv-icon svg path ,
+.services .some-services .services-cards .services-card:hover .serv-icon svg polygon   {
 fill: var(--mainColor1);
 }
 
