@@ -76,12 +76,14 @@ header {
  overflow-x: hidden;
 
 }
-
+header .navbar-nav {
+  gap: 0.5rem;
+}
 
 header .navbar-nav .nav-item .nav-link {
   color: var(--navitemColor);
   font-weight: 600; 
-  font-size: 17px;
+  font-size: 16px;
   transition: all  0.5s;
   -webkit-transition: all  0.5s;
   -moz-transition: all  0.5s;
@@ -128,20 +130,22 @@ header .sticky .nav-left {
 @media (max-width : 1300px) {
   header .nav-left {
     left: -210px;
-    padding-left: 10rem;
+    padding-left: 12rem;
   }
+
+ 
 }
 
 
 
-@media (max-width : 1150px) {
+@media (max-width : 1160px) {
  .navbar-collapse {
    margin-right: -30px;
  }
 
- header .navbar-nav .nav-item .nav-link{
-   font-size: 16px;
- }
+ header .navbar-nav {
+  gap: 0rem;
+}
 
  header .nav-left {
   left: -220px;
