@@ -669,8 +669,15 @@ footer .lang-select .over-select-btn {
   }
 }
 
-
-
+footer .country-footer a 
+ {
+  font-size: 17px;
+  color: var(--blogprgcolor);
+}
+footer .country-footer h6 {
+  font-size: 18px;
+  color: var(--mainColor2);
+}
 
 footer h4 {
 font-size: 20px;
@@ -710,5 +717,7 @@ footer .bottom-footer a:hover {
 footer .bottom-footer span {
   color: var(--white);
 }
+
+
 
 /* footer end */
