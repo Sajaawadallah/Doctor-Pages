@@ -18,6 +18,9 @@ textarea {
 a {
   text-decoration: none;
 }
+[type=email]{
+  direction: rtl !important;
+}
 
 :root {
   --mainColor1 :#F9F5EB; 
@@ -38,6 +41,8 @@ a {
   --feat-background :  #FFFCF5;
   --feat-head :  #1D2B4F;
   --feat-prg : #636E88;
+  --info-prg : #6F6F6F;
+
 
 
 
