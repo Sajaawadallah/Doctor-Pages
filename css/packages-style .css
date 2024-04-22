@@ -1,0 +1,239 @@
+/* start land section */
+header {
+    padding-bottom: 7rem;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+.land-section h1{
+    color: var(--mainColor2);
+    opacity: 87%;
+    font-weight: bold;
+    line-height: 86.2px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.land-section h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background-color: var(--highlightblue);
+    right: 0;
+    bottom: 30px;
+    z-index: -1;
+
+}
+
+@media (max-width : 375px) {
+    .land-section h1::after {
+      display: none;
+    }
+
+    .land-section h1 {
+        line-height: 50px;
+    }
+}
+
+/* end land section */
+
+
+/* start packages */
+
+.tabs{
+    margin-bottom: 10rem;
+}
+
+.tabs .head-style h3{
+    color: var(--mainColor2);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 67.46px;
+    text-align: center;
+
+}
+
+.tabs .head-style h4{
+ color: var(--black);
+font-size: 32px;
+font-weight: 400;
+line-height: 59.97px;
+text-align: center;
+
+
+}
+
+.tabs .tab-content h4 {
+font-size: 24px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: -0.4333333373069763px;
+text-align: center;
+color: #1A1A1A;
+
+}
+
+.tabs .tab-content h5 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 52.47px;
+    text-align: start;
+    color: var(--mainColor2);
+    
+    
+    }
+
+
+.tabs .tab-content .list-icon .p-font {
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.2888889014720917px;
+text-align: right;
+color: #646363;
+
+}
+
+.tabs .tab-content .btn-login
+{
+ background-color: var(--mainColor2);
+ border: 1px solid var(--mainColor2);
+ color: var(--white);
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 22.32px;
+ text-align: center;
+ box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.16);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px;
+ transition: all 0.5s;
+ -webkit-transition: all 0.5s;
+ -moz-transition: all 0.5s;
+ -ms-transition: all 0.5s;
+ -o-transition: all 0.5s;
+}
+.tabs .tab-content  .btn-login:hover
+{
+ background-color: var(--mainColor3);
+ border-color: var(--mainColor3);
+ color: var(--mainColor2);
+}
+
+
+
+
+.tabs .ribbon-box {
+    position: relative;
+}
+
+.tabs .ribbon-box .ribbon-two 
+{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right 
+}
+.tabs .ribbon-box .ribbon-two span 
+{
+    font-size: 7px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 100px;
+    display: block;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, .06), 0 1px 0 0 rgba(0, 0, 0, .02);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .06), 0 1px 0 0 rgba(0, 0, 0, .02);
+    position: absolute;
+    top: 19px;
+    left: -21px;
+    font-weight: 600;
+ }
+ .tabs .ribbon-box .ribbon-two span:before {
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 100%;
+     z-index: -1;
+     border-right: 3px solid transparent;
+     border-bottom: 3px solid transparent ;
+}
+.tabs .ribbon-box .ribbon-two span:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent ;
+}
+.tabs .ribbon-box .ribbon-two-danger span
+ {
+background: #b2820b ;
+    }
+    .tabs .ribbon-box .ribbon-two-danger span:before {
+    border-left: 3px solid #b2820b;
+    border-top: 3px solid #b2820b ;
+}
+.tabs .ribbon-box .ribbon-two-danger span:after {
+    border-right: 3px solid #b2820b;
+    border-top: 3px solid #b2820b ;
+}
+
+
+
+.tabs .nav-link {
+    color: #D2D2D2 !important;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+letter-spacing: -0.361111px;
+font-weight: bolder;
+
+
+  
+}
+.tabs .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #D2D2D2;
+    right: 0;
+    bottom: 0;
+   
+}
+
+.tabs .nav-pills .nav-link.active,
+ .nav-pills .show>.nav-link {
+    color: black !important;
+    background-color: transparent !important;
+    border: none !important;
+  
+}
+.tabs .nav-pills .nav-link.active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  black ;
+    right: 0;
+    bottom: 0;
+   
+}
+
+/* end packages */
+
