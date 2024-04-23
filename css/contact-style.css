@@ -201,13 +201,16 @@ color: var(--black);
     border-color: var(--color1) !important;
 }
 
-.contect-form .socil-icon div {
+.contect-form .socil-icon a {
     width: 46px;
     height: 46px;
     background: var(--mainColor1);
     border-radius: 50%;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 1.5s;
     -webkit-transition: all 1.5s;
     -moz-transition: all 1.5s;
@@ -220,8 +223,12 @@ color: var(--black);
     color: var(--mainColor2);
 }
 
+.contect-form .socil-icon a i {
+    font-size: 20px;
+  
+}
 
-.contect-form .socil-icon div:hover {
+.contect-form .socil-icon a:hover {
     background: var(--mainColor2);
     transform: rotate(30deg);
     -webkit-transform: rotate(30deg);
@@ -230,7 +237,7 @@ color: var(--black);
     -o-transform: rotate(30deg);
 }
 
-.contect-form .socil-icon div:hover i {
+.contect-form .socil-icon a:hover i {
     color: var(--white);
 }
 
