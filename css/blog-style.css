@@ -316,3 +316,221 @@ header {
 }
 
      /* end small-boxs */
+
+
+
+
+     /* start our-team   */
+        .our-team  h4 {
+          color: var(--mainColor2);
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 59.97px;
+          text-align: center;
+
+        }
+        .our-team  h5 {
+          color: var(--black);
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 44.98px;
+          text-align: center;
+          
+
+        }
+
+        .our-team  .slidicon {
+          width: 44px;
+          height: 44px;
+          color: var(--mainColor2);
+          font-size: 20px;
+          font-weight: bolder;
+          border-radius:50% ;
+          background-color: var(--mainColor1);
+          -webkit-border-radius:50% ;
+          -moz-border-radius:50% ;
+          -ms-border-radius:50% ;
+          -o-border-radius:50% ;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+      }
+      
+      .our-team  .slidicon:hover{
+          
+          background-color: var(--mainColor2);
+          color: var(--white);
+        
+          
+      }
+
+      .our-team  .clint-card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex: 0 0 auto;
+        border-radius: 24px;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        -ms-border-radius: 24px;
+        -o-border-radius: 24px;
+        border: 1px solid #E9E9E9 ;
+        width: 100%;
+}
+
+  .our-team  .clint-card .clint-img {
+    width: 86px;
+    height: 86px;
+    border-radius: 83px;
+    -webkit-border-radius: 83px;
+    -moz-border-radius: 83px;
+    -ms-border-radius: 83px;
+    -o-border-radius: 83px;
+    background-color: #D9D9D9;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .our-team  .clint-card .profile-link {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.2888889014720917px;
+  text-align: center;
+  color: var(--mainColor2);
+  width: 87px;
+  height: 26px;
+  border-radius:  27px;
+  -webkit-border-radius:  27px;
+  -moz-border-radius:  27px;
+  -ms-border-radius:  27px;
+  -o-border-radius:  27px;
+  border: 1px solid var(--mainColor2);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  background-color: transparent;
+}
+
+.our-team  .clint-card .profile-link:hover {
+  background-color: var(--mainColor2);
+  color: var(--white);
+}
+
+.our-team  .clint-card h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 33.73px;
+  color: var(--black);
+  margin-bottom: 1px;
+
+}
+
+.our-team  .clint-card p {
+font-size: 14px;
+font-weight: 600;
+line-height: 26.24px;
+color: var(--black);
+opacity: 82%;
+margin-bottom: 1px;
+
+
+}
+
+.our-team  .clint-card .start-active {
+  color: #DFAE31;
+  
+}
+     
+.our-team  .clint-card .gray-line {
+  height: 1px;
+  background-color: #EFEFEF;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.our-team  .clint-card .title  ,
+.our-team  .clint-card .title-info {
+font-size: 18px;
+font-weight: 600;
+line-height: 33.73px;
+text-align: right;
+color: var(--mainColor2)
+
+}
+
+.our-team  .clint-card .title-info {
+
+  color: var(--black);
+}
+
+.our-team  .clint-card .btn-reserve
+ {
+  background-color: var(--mainColor2);
+  border: 1px solid var(--mainColor2);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.32px;
+  text-align: center;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.our-team  .clint-card .btn-reserve:hover
+ {
+  background-color: var(--mainColor3);
+  border-color: var(--mainColor3);
+  color: var(--mainColor2);
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .swiper-slide {
+    -ms-flex: 0 0 33.333333% !important;
+    flex: 0 0 33.333333% !important;
+    max-width: 33.333333% !important;
+    margin-left: 0 !important;
+  }
+
+}
+
+@media (min-width: 768px)  {
+  .swiper-slide {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width : 768px) {
+
+  .swiper-slide {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  
+  }
+}
+     /* end our-team   */

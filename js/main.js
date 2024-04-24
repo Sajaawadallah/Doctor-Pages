@@ -50,3 +50,30 @@ arr1.map(m => m.onclick = function () {
 console.log(arr1)
 
 
+
+// swiper slider for our-team section 
+
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+        nextEl: ".s1",
+        prevEl: ".s2",
+    },
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        991.98: {
+            slidesPerView: 3,
+            spaceBetween: 60,
+        },
+    },
+});
+
+
