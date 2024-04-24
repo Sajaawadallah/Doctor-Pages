@@ -240,9 +240,10 @@ header {
     position: absolute;
     z-index: 2;
     color: var(--white);
-    left: 50%;
+    /* left: 50%; */
     width: 100%;
-  transform: translateX(-50%);
+    margin:  0 auto ;;
+  /* transform: translateX(-50%); */
     bottom: 20px;
     font-size: 24px;
     font-weight: 800;
