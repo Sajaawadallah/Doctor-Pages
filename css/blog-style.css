@@ -237,23 +237,26 @@ header {
 
 
 .blog-types .blog-type-img .blog-type-title {
-    position: absolute;
-    z-index: 2;
-    color: var(--white);
-    /* left: 50%; */
-    width: 100%;
-    margin:  0 auto ;;
-  /* transform: translateX(-50%); */
-    bottom: 20px;
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 44.98px;
-    text-align: center;
-    transition: all 0.5s ;
-    -webkit-transition: all 0.5s ;
-    -moz-transition: all 0.5s ;
-    -ms-transition: all 0.5s ;
-    -o-transition: all 0.5s ;
+  position: absolute;
+  z-index: 2;
+  color: var(--white);
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  bottom: 20px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 44.98px;
+  text-align: center;
+  transition: all 0.5s ;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
 @media (max-width : 1200px) and (min-width : 992px) {
