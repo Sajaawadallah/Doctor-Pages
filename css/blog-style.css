@@ -366,6 +366,7 @@ header {
       }
 
       .our-team  .clint-card {
+       width: 100%;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -376,7 +377,12 @@ header {
         -ms-border-radius: 24px;
         -o-border-radius: 24px;
         border: 1px solid #E9E9E9 ;
-        width: 100%;
+        transform: translate3d(0 , 0  ,0) !important;
+        -webkit-transform: translate3d(0 , 0  ,0) !important;
+        -moz-transform: translate3d(0 , 0  ,0) !important;
+        -ms-transform: translate3d(0 , 0  ,0) !important;
+        -o-transform: translate3d(0 , 0  ,0) !important;
+        
 }
 
   .our-team  .clint-card .clint-img {
@@ -500,37 +506,11 @@ color: var(--mainColor2)
   color: var(--mainColor2);
 }
 
-
-
-
-
-
-@media (min-width: 992px) {
-  .swiper-slide {
-    -ms-flex: 0 0 33.333333% !important;
-    flex: 0 0 33.333333% !important;
-    max-width: 33.333333% !important;
-    margin-left: 0 !important;
-  }
-
+.our-team .swiper-wrapper {
+  gap: 20px;
+}
+.our-team .swiper-slide {
+  margin-left: 0px !important;
 }
 
-@media (min-width: 768px)  {
-  .swiper-slide {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-
-@media (max-width : 768px) {
-
-  .swiper-slide {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  
-  }
-}
      /* end our-team   */

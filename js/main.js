@@ -2,7 +2,34 @@
 new WOW().init();
 
 
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1, // Number of slides per view
+    spaceBetween: 20, // Space between slides
+    // Optional: Other configurations
+    breakpoints: {
+        // when window width is <= 768px
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        // when window width is <= 992px
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
 
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        }
+    },
+
+    navigation: {
+        nextEl: '.s1',
+        prevEl: '.s2',
+    },
+
+});
 
 
 // stiky header
