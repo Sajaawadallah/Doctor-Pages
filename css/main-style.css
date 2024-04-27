@@ -65,6 +65,13 @@ a {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+
+.lines6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
 .swiper {
   z-index: 0 !important;
 }
