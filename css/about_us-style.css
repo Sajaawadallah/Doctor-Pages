@@ -40,15 +40,6 @@ header {
 
 /* start aboutus-video */
 
-.aboutus-video h2 {
-font-size: 32px;
-font-weight: 600;
-line-height: 59.97px;
-text-align: center;
-color: var(--mainColor2);
-
-}
-
 .aboutus-video p {
 font-size: 18px;
 font-weight: 400;
