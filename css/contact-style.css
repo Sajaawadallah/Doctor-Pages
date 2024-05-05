@@ -228,6 +228,11 @@ color: var(--black);
   
 }
 
+.contect-form .socil-icon a svg {
+    fill: var(--mainColor2);
+}
+  
+
 .contect-form .socil-icon a:hover {
     background: var(--mainColor2);
     transform: rotate(30deg);
@@ -239,6 +244,10 @@ color: var(--black);
 
 .contect-form .socil-icon a:hover i {
     color: var(--white);
+}
+
+.contect-form .socil-icon a:hover svg {
+    fill: var(--white);
 }
 
 /* end contect-form */

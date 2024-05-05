@@ -494,13 +494,13 @@ header .btns-group .btn-login:hover {
 
 
 
- header .dropdown-cunt {
+  .dropdown-cunt {
   position: relative;
   display: inline-block;
  
 }
 
-header .dropdown-cunt .dropdown-menu {
+ .dropdown-cunt .dropdown-menu {
   display: block;
   position: absolute;
   background-color: var(--white);
@@ -514,7 +514,23 @@ header .dropdown-cunt .dropdown-menu {
   
 }
 
- header .dropdown-cunt:hover .dropdown-menu {
+footer  .dropdown-cunt .dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: var(--white);
+  min-width: 200px;
+  border: none;
+  right: 100px;
+  top: 40px;
+  padding: 0;
+  height: 180px;
+  max-height: 0 ;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  overflow-y: auto;
+}
+
+  .dropdown-cunt:hover .dropdown-menu {
   max-height: 600px; 
   transition-delay: 0.3s; 
   padding: 1.5rem 0;
