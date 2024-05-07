@@ -118,12 +118,39 @@ color: #646363;
  color: var(--mainColor2);
 }
 
-
-
-
-.tabs .ribbon-box {
-    position: relative;
+.tabs .tab-content svg {
+    width: 24px !important;
 }
+
+
+.tabs .list-icon {
+    height: 445px;
+}
+
+.tabs  .dif .list-icon {
+    height: 466px;
+} 
+
+@media (max-width : 1400px) {
+    .tabs  .dif .list-icon {
+        height: 412px;
+    } 
+    
+}
+
+.tabs .ribbon-box  , 
+.tabs .dif {
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 100%;
+}
+
+
+
 
 .tabs .ribbon-box .ribbon-two 
 {
@@ -228,9 +255,7 @@ font-weight: bolder;
 }
 
 
-.tabs .dif .btn-login {
-    bottom: -230px;
-}
+
 
 /* end packages */
 
